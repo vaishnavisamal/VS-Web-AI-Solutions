@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", "Georgia", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-gold: #D4AF37; /* Vibrant Metallic Gold */
+  --color-gold-light: #F9E7B9; /* Radiant Champagne Gold */
+  --color-gold-dark: #AA7C11; /* Deep Rich Burnished Gold */
+  --color-bronze: #8C6A05; /* Deep Gold Accent */
+
+  --color-dark-espresso: #FFFFFF; /* Pure White Canvas */
+  --color-dark-cocoa: #F5F5F6; /* Soft Off-White Gray */
+  --color-dark-mocha: #FFFFFF; /* Accent Clean White */
+  --color-warm-border: #EAEAEC; /* Subtle Design Border */
+}
+
+/* Custom styles for smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FFFFFF; /* White Canvas */
+  color: #282C3F; /* Myntra Premium Charcoal Text */
+}
+
+/* Custom refined scrollbar for Myntra theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+::-webkit-scrollbar-thumb {
+  background: #EAEAEC;
+  border-radius: 4px;
+  border: 1px solid #EAEAEC;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4D4D6;
+}
+
+
