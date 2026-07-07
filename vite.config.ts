@@ -4,9 +4,11 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/VS-Web-and-AI-Solutions/',
+  
+   base: '/vs-web-ai-solutions/',
+    plugins: [react(), tailwindcss()],
 
-  plugins: [react(), tailwindcss()],
+  
 
   resolve: {
     alias: {
